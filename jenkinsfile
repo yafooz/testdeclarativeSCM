@@ -1,0 +1,25 @@
+pipeline {
+    agent any
+    stages {
+        stage('build ') {
+            steps {
+                echo 'build completed  from github....!'
+            }
+        }
+                stage('test ') {
+            steps {
+                echo 'test completed ....!'
+            }
+        }
+                stage('deploy ') {
+            steps {
+                echo 'deploy completed  from github....!'
+
+
+
+            }
+        }
+
+
+    }
+}
